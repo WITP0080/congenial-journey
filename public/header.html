@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .emoi-hander{
+            width: 100%;
+            height: 112px;
+            color: #5B5B5B;
+            background-color: #FFFFFF;
+            display: flex;
+            align-items: center;
+        }
+        .emoi-hander .header-center{
+            width: 100%;
+            height: 26px;
+            display: flex;
+            justify-content: center;
+        }
+        .emoi-hander .hander-con{
+            width: 1100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .emoi-hander .hander-con > img{
+            height: 26px;
+        }
+        .emoi-hander .hander-con > ul{
+            width: 500px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        /* 之后写下拉单 */
+        .emoi-hander .hander-con > ul > li{
+            /* display: block; */
+        }
+        .emoi-hander .hander-con > ul > li:hover{
+            color: #B9CD36;
+        }
+        .emoi-hander .hander-con > ol{
+            width: 130px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        .emoi-hander .hander-con > ol > li> img{
+            height: 24px;
+        }
+        /* 图片变颜色未达成效果 */
+        .emoi-hander .hander-con > ol > li :hover img{
+            color: #B9CD36;
+        }
+    </style>
+</head>
+<body>
+    <div class="emoi-hander">
+        <div class="header-center">
+            <div class="hander-con">
+                <img src="./img/logo.png" alt="">
+                <ul>
+                    <li>香薰生活</li>
+                    <li>智能生活</li>
+                    <li>居家生活</li>
+                    <li>个人随身</li>
+                </ul>
+                <ol>
+                    <li>
+                        <a href=""><img src="./img/user.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/shopcar.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./img/survey.png" alt=""></a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
